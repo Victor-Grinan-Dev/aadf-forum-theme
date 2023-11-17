@@ -1,0 +1,126 @@
+@import "constants.scss";
+
+.recent-post-title{
+    background-color: var(--menu_bar_green);
+    font-family: var(--test_font);
+    color: var(--header_footer_dark_grey);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.post-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.post-list>div:nth-child(even){
+    background-color: var(--fun_color_gray);
+    color: var(--white);
+}
+.post-list>div:nth-child(odd){
+    background-color: var(--fun_color_blue);
+    color: var(--white);
+}
+.post-list>div:nth-child(4n-7) {
+      background-color: var(--white);
+    color: var(--fun_color_dark);
+}
+.post-list>div:nth-child(4n-6) {
+    background-color: var(--fun_color_green);
+    color: var(--white);
+}
+
+.recent-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px;
+    min-height: 100px;
+}
+
+.top-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+
+    background-image: url('../../assets/quotes.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20px -20px;
+}
+
+.profile-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fun_color_dark);
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+}
+
+.profile-image{
+    background-image: url('../../assets/meLogo-white-border.png');
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 500;
+    width: 100%;
+    
+}
+.bottom-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.author,
+.tag,
+.reactions,
+.date{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.reactions{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.icon{
+    background-image: url("../../assets/comments.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+.author{
+
+}
+.tag{
+
+}
+.comments{
+    background-image: url('../../assets/comments.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15px;
+    min-height: 15px;
+}
+.date{
+
+}

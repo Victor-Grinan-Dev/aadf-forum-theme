@@ -1,0 +1,52 @@
+@import 'constants.css';
+
+.forum-layout{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95vw;
+}
+
+.content{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+}
+
+.columns{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 10px;
+    gap:5px;
+    max-width: 1000px;
+}
+
+.primary-column{
+    display:flex;
+    flex-direction: column;
+    width: 55vw;
+    flex: 1;
+     gap: 5px
+}
+.secundary-column{
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .columns{
+        flex-direction: column;
+    }
+
+    .primary-column{
+        width: 100%;
+    }
+    .secundary-column{
+        width: 100%;
+    }
+}

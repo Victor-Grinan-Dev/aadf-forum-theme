@@ -1,0 +1,27 @@
+@import 'constants.css';
+
+.footer{
+    background-color: var(--header_footer_dark_grey);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    flex-direction: column;
+}
+
+.footer-logo-title-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.footer-nav-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}

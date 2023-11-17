@@ -1,0 +1,109 @@
+@import 'constants.css';
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header_footer_dark_grey);
+    padding: 25px;
+    box-shadow: 0 0 5px var(--menu_bar_outline_green);
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.title-logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.app-logo{
+    background-image: url("../../assets/logo4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+
+.app-title{
+    font-family: var(--test_font);
+    font-size: 30px;
+    color: white;
+}
+
+.menu-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-list{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.nav-item{
+    color: var(--white);
+    font-family: var(--test_font);
+}
+
+.nav-item:hover{
+    color:var( --menu_bar_outline_green);
+    text-shadow: 0 0 10px var(--white);
+    font-family: var(--test_font);
+}
+
+.search{
+        background-image: url('../../assets/search-icon.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 25px;
+        height: 25px;
+}
+
+.user-image{
+        background-image: url('../../assets/pic.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+}
+
+.hamburgermenu{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .hamburgerMenu{
+        background-image: url('../../assets/hamburger-menu.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .app-title{
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-list{
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+}

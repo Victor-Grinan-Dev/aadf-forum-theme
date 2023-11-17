@@ -1,0 +1,46 @@
+@import 'constants.css';
+
+.category{
+    min-height: 150px;
+}
+
+.category-name{
+    background-color: var(--menu_bar_green);
+    border-radius: 3px 3px 0 0;
+    padding: 0 10px;
+
+    font-family: var(--test_font);
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--header_footer_dark_grey);
+    text-shadow: 0 0 3px var(--menu_bar_outline_green);
+}
+
+.category-name:hover{
+    color: var(--menu_bar_outline_green);
+    text-shadow: 0 0 5px var(--white);
+}
+
+.category-description{
+    padding: 20px 45px;
+}
+.subcategories{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    font-family: var(--test_font);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+.subcategory-link{
+    padding: 15px;
+    background-color: var(--light_gray_3);
+}
+
+.subcategory-link:hover{
+    background-color: var(--light_gray_1);
+}

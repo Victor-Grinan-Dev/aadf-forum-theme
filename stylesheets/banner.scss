@@ -1,0 +1,12 @@
+@import 'constants.css';
+
+.banner{
+    height: 200px;
+    width: 99vw;
+    background-color: var(--light_gray_2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}

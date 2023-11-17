@@ -1,0 +1,16 @@
+@import 'constants.css';
+
+.base-card{
+    background-color: var(--white);
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px var(--menu_bar_outline_green);
+}
+
+.base-input{
+    appearance:none ;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: var(--menu_bar_outline_green);
+    padding: 5px 10px;
+}
