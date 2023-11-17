@@ -107,8 +107,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*** DISCOURSE ELEMENTS ***/
 
-.main-outlet-wrapper,
-.discourse-root{
+.main-outlet-wrapper
+//, .discourse-root
+{
     margin: 0;
     padding: 0;
     display: flex;
@@ -116,10 +117,6 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.discourse-root{
-    flex-direction: column;
-}
-
-.content{
-    width: 100%;
-}
+// .discourse-root{
+//     flex-direction: column;
+// }
