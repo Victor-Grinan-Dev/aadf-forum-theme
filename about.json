@@ -4,7 +4,7 @@
   "about_url":"https://github.com/Victor-Grinan-Dev/aadf-forum-theme/blob/main/README.md",
   "component": false,
   "authors": "Victor Griñan & David Jacson",
-  "theme_version": "1.0.0",
+  "theme_version": 1.0,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
