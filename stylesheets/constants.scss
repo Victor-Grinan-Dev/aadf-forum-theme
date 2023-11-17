@@ -10,7 +10,8 @@
     --menu_bar_green: #63c810;
     --menu_bar_outline_green: #459504;
     --body_background_pale_green: #BAE598;
-
+    --discourse_dark:#222222;
+    
     --fun_color_purple: #7e22ce;
     --fun_color_red: #640032;
     --fun_color_gray: #4b5563;
@@ -120,3 +121,6 @@ p, h1, h2, h3, h4, h5, h6 {
 // .discourse-root{
 //     flex-direction: column;
 // }
+.ember-application{
+    background-color: var(--body_background_pale_green);
+}
