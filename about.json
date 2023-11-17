@@ -1,9 +1,9 @@
 {
   "name": "AADF-theme",
-  "license_url":"https://github.com/Victor-Grinan-Dev/aadf-forum-theme/blob/main/LICENSE"
+  "license_url":"https://github.com/Victor-Grinan-Dev/aadf-forum-theme/blob/main/LICENSE",
   "about_url":"https://github.com/Victor-Grinan-Dev/aadf-forum-theme/blob/main/README.md",
   "component": false,
-  "authors": "Victor Griñan & David Jacson",
+  "authors": "Victor Griñan & David Jackson",
   "theme_version": 1.0,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
