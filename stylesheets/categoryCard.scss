@@ -2,6 +2,7 @@
 
 .category{
     min-height: 150px;
+    color: var(--header_footer_dark_grey);
 }
 
 .category-name{
@@ -43,4 +44,5 @@
 
 .subcategory-link:hover{
     background-color: var(--light_gray_1);
+    color: var(--header_footer_dark_grey);
 }
