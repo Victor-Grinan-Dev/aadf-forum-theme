@@ -9,20 +9,34 @@
 }
 
 .base-input{
-    appearance:none ;
-    border-width: 3px;
-    border-radius: 3px;
+    // appearance:none ;
+    // border-width: 3px;
+    // border-radius: 3px;
+    // border-color: var(--menu_bar_outline_green);
+    // padding: 5px 10px;
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+    // border: none;
+
+    // background-color: var(--white);
+    // color:black;
+
+        /* appearance: none; */
+    /* border-width: 3px; */
+    border-radius: 2px;
     border-color: var(--menu_bar_outline_green);
-    padding: 5px 10px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    padding: 8px 5px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
     border: none;
-
     background-color: var(--white);
-    color:black;
+    color: #000;
+    width: 130px;
 }
 
 .base-select{
