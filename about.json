@@ -8,6 +8,13 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
+    "comment-icon":"assets/comments.png",
+    "menu-icon":"assets/hamburger-menu.png",
+    "logo":"assets/logo4.png",
+    "user-icon":"assets/meLogo-white-border.png",
+    "user-profile":"assets/pic.jpg",
+    "quotes":"assets/quotes.png",
+    "search-icon":"assets/search-icon.png"
   },
   "color_schemes": {
     "air-light": {
