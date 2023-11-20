@@ -22,39 +22,5 @@
 }
 
 
-.app-select{
-  border-radius: 3px;
-}
+/*** elements inside the filter bar are described in the components file ***/
 
-.app-button{
-  border-radius: 3px;
-}
-
-
-.search-input{
-  width: 100px;
-  padding: 3px 5px;
-  border-radius: 3px;
-  background-color: var(--white);
-  margin: 0;
-}
-
-/*** Search input ***/
-.search-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.search-input {
-  font-size: 16px;
-  margin: 0 auto;
-  padding: 5px 15px;
-  border-radius: 3px;
-  background-color: rgb(255, 255, 255);
-  border: none;
-  width: 90%;
-  display: block;
-  border-bottom: 3px solid transparent;
-  transition: all 0.3s;
-}
