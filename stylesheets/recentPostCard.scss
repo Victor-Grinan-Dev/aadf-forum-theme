@@ -1,6 +1,6 @@
 @import "constants.scss";
 
-.latest-topic-list-item{
+.recent-post-title{
     background-color: var(--menu_bar_green);
     font-family: var(--test_font);
     color: var(--header_footer_dark_grey);
@@ -32,7 +32,7 @@
     color: var(--white);
 }
 
-.recent-post{
+.latest-topic-list-item{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
