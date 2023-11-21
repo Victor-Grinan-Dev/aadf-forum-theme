@@ -1,6 +1,6 @@
 // @import "constants.scss";
 // @import "components.scss";
-// @import "banner.scss";
+
 // @import "filterBar.scss";
 // @import "forumLayout.scss";
 // @import "footer.scss";
@@ -8,7 +8,9 @@
 // @import "recentPostCard.scss";
 
 
-//NEW
+@import "banner.scss";
+
+//NEW working on
 /*** SIDEBAR ***/
 @import "sidebar.scss";
 
