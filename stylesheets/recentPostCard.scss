@@ -13,23 +13,29 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
 
-.latest-topic-list>div:nth-child(even){
+    &>div:nth-child(even){
     background-color: var(--fun_color_gray);
     color: var(--white);
+    }
+    &>div:nth-child(odd){
+        background-color: var(--fun_color_blue);
+        color: var(--white);
+    }
+    &>div:nth-child(4n-7) {
+        background-color: var(--white);
+        color: var(--fun_color_dark);
+    }
+    &>div:nth-child(4n-6) {
+        background-color: var(--fun_color_green);
+        color: var(--white);
+    }
 }
-.latest-topic-list>div:nth-child(odd){
-    background-color: var(--fun_color_blue);
-    color: var(--white);
-}
-.latest-topic-list>div:nth-child(4n-7) {
-      background-color: var(--white);
-    color: var(--fun_color_dark);
-}
-.latest-topic-list>div:nth-child(4n-6) {
-    background-color: var(--fun_color_green);
-    color: var(--white);
+ 
+
+
+.latest-topic-list-item .topic-poster{
+
 }
 
 .latest-topic-list-item{
