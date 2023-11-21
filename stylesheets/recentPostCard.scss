@@ -9,25 +9,25 @@
     padding: 0 10px;
 }
 
-.post-list{
+.latest-topic-list{
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.post-list>div:nth-child(even){
+.latest-topic-list>div:nth-child(even){
     background-color: var(--fun_color_gray);
     color: var(--white);
 }
-.post-list>div:nth-child(odd){
+.latest-topic-list>div:nth-child(odd){
     background-color: var(--fun_color_blue);
     color: var(--white);
 }
-.post-list>div:nth-child(4n-7) {
+.latest-topic-list>div:nth-child(4n-7) {
       background-color: var(--white);
     color: var(--fun_color_dark);
 }
-.post-list>div:nth-child(4n-6) {
+.latest-topic-list>div:nth-child(4n-6) {
     background-color: var(--fun_color_green);
     color: var(--white);
 }
