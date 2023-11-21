@@ -51,6 +51,12 @@
 }
 
 
+.nav-item_latest .active .latest .ember-view{
+    //active 
+  background-color: var(--fun_color_petrol);
+  color: var(--white);
+}
+
 /** DROP DOWN LIST**/
 
 .select-kit-collection {
