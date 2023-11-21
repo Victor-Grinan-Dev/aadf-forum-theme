@@ -11,6 +11,10 @@
 
     .container{
         @include flex-between;
+        &::before,
+        &::after{
+            @include flex-between;
+        }
     }
 }
 
