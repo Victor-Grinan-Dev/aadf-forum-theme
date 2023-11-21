@@ -51,12 +51,9 @@
 }
 
 
-.nav-item_latest .active .latest .ember-view{
-    .active {
-        background-color: var(--fun_color_petrol);
-        color: var(--white);
-    }
-
+.nav-pills>li a.active, .nav-pills>li button.active{
+    background-color: var(--fun_color_petrol);
+    color: var(--white);
 }
 
 /** DROP DOWN LIST**/
