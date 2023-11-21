@@ -25,18 +25,7 @@ body{
     overflow-x: hidden;
 }
 
-// .main-outlet-wrapper
-// {
-//     margin: 0;
-//     padding: 0;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// }
-
-// .discourse-root{
-//     flex-direction: column;
-// }
 .ember-application{
+    //the app main container
     background-color: var(--body_background_pale_green);
 }
