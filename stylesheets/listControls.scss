@@ -50,6 +50,12 @@
     }
 }
 
+.nav-pills>li {
+    color: var(--white);
+}
+.nav-pills>li:hover {
+    color: var(--menu_bar_green);
+}
 
 .nav-pills>li a.active, .nav-pills>li button.active{
     //ordering buttons
@@ -58,15 +64,12 @@
 }
 
 
-
 /** DROP DOWN LIST**/
 
 .list-controls .combo-box .combo-box-header{
     //dropdown filters
     // background-color: var(--fun_color_petrol);
     // color: var(--white);
-
-    padding:3px 10px;
 }
 
 
