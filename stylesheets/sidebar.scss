@@ -1,0 +1,69 @@
+@import "constants.scss";
+
+/**** GENERAL CSS ****/
+.sidebar-section-wrapper {
+    background-color: var(--white);
+}
+
+.sidebar-section {}
+
+/**** ELEMENT ****/
+.sidebar-wrapper {}
+
+//div
+.sidebar-container {}
+
+//div
+.sidebar-sections {}
+
+//section
+.sidebar-custom-sections {}
+
+.sidebar-section-content {
+
+    //ul -->this is the top part of the sidebar
+    .sidebar-section-link-wrapper {
+
+        //li
+        .sidebar-section-link .sidebar-row {
+
+            //a
+            .sidebar-section-link-prefix .icon {
+
+                //span icon-container
+                .prefix-icon {
+                    //svg
+                }
+            }
+
+            .sidebar-section-link-content-text {
+                //span for side nav icon text/name
+
+            }
+        }
+    }
+}
+
+.sidebar-section-header-caret{
+    
+}
+.sidebar-section-header-button{
+
+}
+.sidebar-footer-wrapper {}
+
+//div
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
