@@ -22,11 +22,11 @@
 
 .navigation-container {
     @include reset;
+    @include flex-between;
+
     background-color: var(--menu_bar_green);
     border-radius: $app-borders;
     width: 100%;
-
-    // @include flex-between;
 
     .category-breadcrumb {
         //this contains the select elements
