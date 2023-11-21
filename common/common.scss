@@ -8,13 +8,13 @@
 @import "recentPostCard.scss";
 
 
-@import "selectKit.scss";
-@import "navItems.scss";
+// @import "selectKit.scss";
+// @import "navItems.scss";
 
 body{
     background-color: var(--discourse_black);
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
 }
