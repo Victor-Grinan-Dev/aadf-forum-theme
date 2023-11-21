@@ -1,6 +1,6 @@
 @import "constants.scss";
 
-.list-controls{
+.list-controls {
     @include reset;
     background-color: var(--white);
 
@@ -20,7 +20,7 @@
     // }
 }
 
-.navigation-container{
+.navigation-container {
     @include reset;
     background-color: var(--menu_bar_green);
     border-radius: $app-borders;
@@ -28,23 +28,25 @@
 
     // @include flex-between;
 
-    .category-breadcrumb{
+    .category-breadcrumb {
         //this contains the select elements
         @include reset;
-        
-        li{
+
+        li {
             //select
         }
+    }
+
+    .nav .nav-pills {
+        @include reset;
     }
 }
 
 
 /** DROP DOWN LIST**/
 
-.select-kit-collection{
+.select-kit-collection {
     //ul
 
-    .select-kit-row .category-row .is-highlighted .ember-view{
-
-    }
+    .select-kit-row .category-row .is-highlighted .ember-view {}
 }
