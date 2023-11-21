@@ -1,16 +1,16 @@
-// @import "constants.scss";
-// @import "components.scss";
-// @import "banner.scss";
-// @import "filterBar.scss";
-// @import "forumLayout.scss";
-// @import "footer.scss";
-// @import "categoryCard.scss";
-// @import "recentPostCard.scss";
+@import "constants.scss";
+@import "components.scss";
+@import "banner.scss";
+@import "filterBar.scss";
+@import "forumLayout.scss";
+@import "footer.scss";
+@import "categoryCard.scss";
+@import "recentPostCard.scss";
 
-// body{
-//     background-color: var(--discourse_black);
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     overflow-x: hidden;
-// }
+body{
+    background-color: var(--discourse_black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
