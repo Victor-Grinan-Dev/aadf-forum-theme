@@ -50,16 +50,15 @@
     }
 }
 
+ //ordering buttons
 .nav-pills>li a, .nav-pills>li button {
     color: var(--white);
 }
 .nav-pills>li a:hover, .nav-pills>li button:hover {
-    color: var(--white);
-    background-color: var(--fun_color_dark);
+    background-color: var(--fun_color_petrol);
+    color: var(--light_gray_3);
 }
-
 .nav-pills>li a.active, .nav-pills>li button.active{
-    //ordering buttons
     background-color: var(--fun_color_petrol);
     color: var(--white);
 }
