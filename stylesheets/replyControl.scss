@@ -1,5 +1,6 @@
 @import "constants.scss";
 
-#reply-control.open{
+#reply-control.open,
+.d-editor-textarea-column{
     background-color: var(--fun_color_dark);
 }
