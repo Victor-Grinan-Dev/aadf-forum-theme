@@ -3,20 +3,20 @@
 .list-controls{
     background-color: var(--white);
 
-    @include flex-between;
+    // @include flex-between;
 
     padding: 5px;
     gap: 5px;
     border-radius: $app-borders;
 
-    .container{
-        @include flex-between;
-        &::before,
-        &::after{
-            @include flex-between;
-            width: 100%;
-        }
-    }
+    // .container{
+    //     @include flex-between;
+    //     &::before,
+    //     &::after{
+    //         @include flex-between;
+    //         width: 100%;
+    //     }
+    // }
 }
 
 .navigation-container{
@@ -24,7 +24,7 @@
     border-radius: $app-borders;
     width: 100%;
 
-    @include flex-between;
+    // @include flex-between;
 
     .category-breadcrumb{
         //this contains the select elements
