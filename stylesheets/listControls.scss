@@ -53,7 +53,7 @@
 .nav-pills>li {
     color: var(--white);
 }
-.nav-pills>li:hover {
+.nav-pills>li a, .nav-pills>li button:hover {
     color: var(--menu_bar_green);
 }
 
