@@ -17,6 +17,7 @@
     --fun_color_red: #640032;
     --fun_color_gray: #4b5563;
     --fun_color_blue: #576e8f;
+    --fun_color_petrol: #03374b;
     --fun_color_dark: #111827;
     --fun_color_green: rgb(108, 196, 36);
 
@@ -135,4 +136,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+a .active{
+  background-color: var(--fun_color_petrol);
+  color: var(--white);
+}

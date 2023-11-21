@@ -44,6 +44,10 @@
         gap: $gap-small;
         flex: 1;
     }
+
+    .navigation-controls{
+        @include reset;
+    }
 }
 
 
@@ -51,6 +55,5 @@
 
 .select-kit-collection {
     //ul
-
     .select-kit-row .category-row .is-highlighted .ember-view {}
 }
