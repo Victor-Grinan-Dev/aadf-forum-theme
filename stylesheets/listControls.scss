@@ -2,12 +2,16 @@
 
 .list-controls{
     background-color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+    @include flex-between;
+
     padding: 5px;
     gap: 5px;
     border-radius: $app-borders;
+
+    .container{
+        @include flex-between;
+    }
 }
 
 .navigation-container{
@@ -16,8 +20,6 @@
     width: 100%;
 
     @include flex-between;
-
-
 
     .category-breadcrumb{
         //this contains the select elements
