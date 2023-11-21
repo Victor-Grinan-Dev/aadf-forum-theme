@@ -61,17 +61,13 @@
 
 /** DROP DOWN LIST**/
 
-// .list-controls .combo-box .combo-box-header{
-//     //dropdown filters
-//     background-color: var(--fun_color_petrol);
-//     color: var(--white);
-// }
+.list-controls .combo-box .combo-box-header{
+    //dropdown filters
+    // background-color: var(--fun_color_petrol);
+    // color: var(--white);
 
-.select-kit-header .single-select-header .combo-box-header .category-drop-header .ember-view{
-    background-color: white;
+    padding:3px 10px;
 }
 
-.select-kit-collection {
-    //ul
-    .select-kit-row .category-row .is-highlighted .ember-view {}
-}
+
+
