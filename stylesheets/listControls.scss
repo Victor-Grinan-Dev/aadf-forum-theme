@@ -1,8 +1,16 @@
+@import "constants.scss";
+
 .list-controls{
-    
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 5px;
 }
 
 .navigation-container{
+    background-color: var(--menu_bar_green);
     .category-breadcrumb{
         //this contains the select elements
 

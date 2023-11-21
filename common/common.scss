@@ -1,4 +1,4 @@
-// @import "constants.scss";
+
 // @import "components.scss";
 
 // @import "filterBar.scss";
@@ -7,7 +7,10 @@
 // @import "categoryCard.scss";
 // @import "recentPostCard.scss";
 
+/*** APP VARIABLES ***/
+@import "constants.scss";
 
+/*** BANNER/ADV ***/
 @import "banner.scss";
 
 //NEW working on
@@ -15,6 +18,9 @@
 @import "sidebar.scss";
 
 /*** SECUNDARY NAV BAR ****/
+//this is the control of the search and filters of forums
+@import "listControls.scss";
+
 
 // @import "selectKit.scss";
 // @import "navItems.scss";
