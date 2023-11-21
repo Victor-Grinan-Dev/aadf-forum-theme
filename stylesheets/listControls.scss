@@ -52,16 +52,20 @@
 
 
 .nav-pills>li a.active, .nav-pills>li button.active{
+    //ordering buttons
     background-color: var(--fun_color_petrol);
     color: var(--white);
 }
 
-.list-controls .combo-box .combo-box-header{
-    background-color: var(--fun_color_petrol);
-    color: var(--white);
-}
+
 
 /** DROP DOWN LIST**/
+
+// .list-controls .combo-box .combo-box-header{
+//     //dropdown filters
+//     background-color: var(--fun_color_petrol);
+//     color: var(--white);
+// }
 
 .select-kit-header .single-select-header .combo-box-header .category-drop-header .ember-view{
     background-color: white;
