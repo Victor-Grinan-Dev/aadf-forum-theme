@@ -62,6 +62,11 @@
 $app-borders:3px;
 
 
+@mixin flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /*RESET CSS*/
 
