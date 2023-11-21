@@ -36,11 +36,12 @@
             //select
         }
     }
-    
+
     #navigation-bar,
     .nav .nav-pills {
         @include reset;
         @include flex-between;
+        flex: 1;
     }
 }
 
