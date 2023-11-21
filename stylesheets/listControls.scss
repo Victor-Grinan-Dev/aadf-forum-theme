@@ -1,6 +1,7 @@
 @import "constants.scss";
 
 .list-controls{
+    @include reset;
     background-color: var(--white);
 
     // @include flex-between;
@@ -20,6 +21,7 @@
 }
 
 .navigation-container{
+    @include reset;
     background-color: var(--menu_bar_green);
     border-radius: $app-borders;
     width: 100%;
@@ -28,7 +30,8 @@
 
     .category-breadcrumb{
         //this contains the select elements
-
+        @include reset;
+        
         li{
             //select
         }

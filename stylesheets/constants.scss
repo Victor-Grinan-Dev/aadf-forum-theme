@@ -61,6 +61,10 @@
 
 $app-borders:3px;
 
+@mixin reset{
+  margin: 0;
+  padding: 0;
+}
 
 @mixin flex-between{
     display: flex;
