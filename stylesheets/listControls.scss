@@ -40,7 +40,8 @@
     #navigation-bar,
     .nav .nav-pills {
         @include reset;
-        @include flex-between;
+        @include flex-start;
+        gap: $gap-small;
         flex: 1;
     }
 }

@@ -61,6 +61,10 @@
 
 $app-borders:3px;
 
+$gap-small:5px;
+$gap-med:10px;
+$gap-big:20px;
+
 @mixin reset{
   margin: 0;
   padding: 0;
@@ -70,6 +74,12 @@ $app-borders:3px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+@mixin flex-start{
+    display: flex;
+    align-items: center;
+    justify-content: space-start;
+    flex-wrap: nowrap;
 }
 
 /*RESET CSS*/
