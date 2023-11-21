@@ -113,21 +113,4 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*** DISCOURSE ELEMENTS ***/
 
-.main-outlet-wrapper
-//, .discourse-root
-{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-// .discourse-root{
-//     flex-direction: column;
-// }
-.ember-application{
-    background-color: var(--body_background_pale_green);
-}
