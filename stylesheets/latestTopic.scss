@@ -22,43 +22,43 @@
 
     // display:flex;
     // flex-direction: column;
-    &>div:nth-child(even) {
+    & div:nth-child(even) {
         background-color: var(--fun_color_gray);
         color: var(--white);
-        & div{
-            background-color: var(--fun_color_gray);
-            color: var(--white);
-        }
+        // & div{
+        //     background-color: var(--fun_color_gray);
+        //     color: var(--white);
+        // }
 
     }
 
-    &>div:nth-child(odd) {
+    & div:nth-child(odd) {
         background-color: var(--fun_color_blue);
         color: var(--white);
-        & div{
-            background-color: var(--fun_color_blue);
-            color: var(--white);
-        }
+        // & div{
+        //     background-color: var(--fun_color_blue);
+        //     color: var(--white);
+        // }
 
     }
 
-    &>div:nth-child(4n-7) {
+    & div:nth-child(4n-7) {
         background-color: var(--white);
         color: var(--fun_color_dark);
-        & div{
-            background-color: var(--white);
-            color: var(--fun_color_dark);
-        }
+        // & div{
+        //     background-color: var(--white);
+        //     color: var(--fun_color_dark);
+        // }
 
     }
 
-    &>div:nth-child(4n-6) {
+    & div:nth-child(4n-6) {
         background-color: var(--fun_color_green);
         color: var(--white);
-        & div{
-            background-color: var(--fun_color_green);
-            color: var(--white);
-        }
+        // & div{
+        //     background-color: var(--fun_color_green);
+        //     color: var(--white);
+        // }
 
     }
 }
