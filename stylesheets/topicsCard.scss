@@ -87,4 +87,7 @@ tbody {
         margin: 0;
         padding: 12px 0;
     }
+    .topic-list-item, tr{
+        justify-content: stretch;
+    }
 }
