@@ -88,11 +88,10 @@ tbody {
         padding: 12px 0;
     }
     .topic-list .topic-list-data:last-of-type{
-        align-self: flex-end;
         flex: 1;
         padding: 0;
-        text-align: right;
         display: flex;
         align-items: flex-end;
+        justify-content: flex-end;
     }
 }
