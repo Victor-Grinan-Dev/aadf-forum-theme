@@ -1,29 +1,19 @@
 @import "constants.scss";
 
-
-// .navigation-categories .category-list{
-//     //each card?
-//     background-color: var(--white);
-// }
-
-
-// .navigation-categories .category-list:not(:first-child) 
-// {
-//     //all other cards but first
-//     background:yellow;
-// }
-
+ .category-list td,
 .category-list tbody .category{
-    // topic card
+    // topic card, start
     background-color: var(--white);
 }
+ .category-list td
+{
+    // topic card, end
+   border-radius: 0 3px 3px 0;
+}
+
 
 .navigation-categories .category-list:first-child{
     background-color: var(--body_background_pale_green);
 }
 
-//.category-list .topics ,
- .category-list td
-{
-    background-color: var(--white);
-}
+
