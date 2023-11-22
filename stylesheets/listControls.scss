@@ -29,48 +29,55 @@
         flex: 1;
     }
 
-    .navigation-controls{
+    .navigation-controls {
         @include reset;
     }
 }
 
- //ordering buttons
-.nav-pills>li a, .nav-pills>li button {
+//ordering buttons
+.nav-pills>li a,
+.nav-pills>li button {
     color: var(--white);
 }
 
-.nav-pills>li{
+.nav-pills>li {
     margin: 0;
 }
 
-.nav-pills>li a:hover, .nav-pills>li button:hover {
+.nav-pills>li a:hover,
+.nav-pills>li button:hover {
     background-color: var(--fun_color_petrol);
     color: var(--light_gray_3);
 }
-.nav-pills>li a.active, .nav-pills>li button.active{
+
+.nav-pills>li a.active,
+.nav-pills>li button.active {
     background-color: var(--fun_color_petrol);
     color: var(--white);
 }
 
-.navigation-container #navigation-bar,
-.navigation-container .nav .nav-pills{
-    flex-wrap: wrap;
+@media only screen and (max-width:300px) {
+
+    .navigation-container #navigation-bar,
+    .navigation-container .nav .nav-pills {
+        flex-wrap: wrap;
+    }
 }
 
 /** DROP DOWN LIST**/
-.list-controls .combo-box .combo-box-header{
+.list-controls .combo-box .combo-box-header {
     //dropdown filters
     background-color: var(--fun_color_dark);
     color: var(--light_gray_1);
 }
 
-.select-kit.is-expanded .select-kit-body{
+.select-kit.is-expanded .select-kit-body {
     //drop list expanded
     background-color: var(--fun_color_dark);
     color: var(--light_gray_1);
 }
 
-.btn{
+.btn {
     //last button of thelist control area
     background-color: var(--fun_color_dark);
 }
