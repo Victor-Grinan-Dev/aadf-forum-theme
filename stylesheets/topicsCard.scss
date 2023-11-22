@@ -66,10 +66,13 @@ thead .topic-list-item, tr{
     min-width: 60%;
 }
 
-.topic-list .topic-list-data:first-of-type {
+.topic-list .topic-list-data:first-child {
+
     padding-left: 10px;
     min-width: 65%;
     overflow-wrap: break-word;
+   
+
 }
 
 @media only screen and (max-width: 300px){
