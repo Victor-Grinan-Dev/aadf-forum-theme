@@ -1,6 +1,10 @@
 @import "constants.scss";
 
 /**** GENERAL CSS ****/
+
+.sidebar-container{
+    background-color: var(--fun_color_dark);
+}
 .sidebar-section-wrapper {
     // background-color: var(--white);
 }
