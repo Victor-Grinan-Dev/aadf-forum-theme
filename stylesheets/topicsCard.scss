@@ -21,7 +21,8 @@ tbody {
 .category-list tbody .category{
     // topic card, start
     border-radius: 3px 0 0 3px;
-    box-shadow: 0 9px 0px 0px rgb(247, 2, 2), 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(224, 114, 239, 0.8);
+                    //down                              //top                                  //right                           //left
+    box-shadow: 0 0 10px var(--menu_bar_outline_green), 0 0 10px var(--menu_bar_outline_green), none, 0 0 10px var(--menu_bar_outline_green);
     
 }
  .category-list td
