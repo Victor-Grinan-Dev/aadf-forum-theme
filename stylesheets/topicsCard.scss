@@ -1,9 +1,10 @@
 @import "constants.scss";
 
- .category-list td,
+.category-list td,
 .category-list tbody .category{
     // topic card, start
     background-color: var(--white);
+    margin: 2px;
 }
  .category-list td
 {
