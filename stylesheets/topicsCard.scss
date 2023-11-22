@@ -44,11 +44,7 @@ tbody {
     display: flex;
 }
 
-@media only screen and (max-width: 300px){
-    .topic-list .topic-list-data{
-        width: 50px;
-    }
-}
+
 
 .topic-list-item, tr {
     border-bottom: none;
@@ -68,4 +64,13 @@ tbody {
     padding-left: 10px;
     min-width: 65%;
     overflow-wrap: break-word;
+}
+
+@media only screen and (max-width: 300px){
+    .topic-list .topic-list-data:first-of-type{
+        width: 60%;
+    }
+    .topic-list .topic-list-data{
+        width: 30px;
+    }
 }
