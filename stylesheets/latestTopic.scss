@@ -1,20 +1,41 @@
 @import "constants.scss";
 
-.latest-topic-list .table-heading, 
-.top-topic-list .table-heading, //up till this line is the heading.
-.latest-topic-list-item{
+.latest-topic-list .table-heading,
+.top-topic-list .table-heading,
+//up till this line is the heading.
+.latest-topic-list-item {
     background-color: var(--white);
     border-radius: 3px;
 }
 
-.latest-topic-list-item{
+.latest-topic-list-item {
     //card
     margin-top: 5px;
     border-bottom: none;
 }
 
-.categories-and-latest div.column div, 
-.categories-and-top div.column div{
-    display:flex;
-    flex-direction: column;
+.categories-and-latest div.column div,
+.categories-and-top div.column div {
+
+    // display:flex;
+    // flex-direction: column;
+    &>div:nth-child(even) {
+        background-color: var(--fun_color_gray);
+        color: var(--white);
+    }
+
+    &>div:nth-child(odd) {
+        background-color: var(--fun_color_blue);
+        color: var(--white);
+    }
+
+    &>div:nth-child(4n-7) {
+        background-color: var(--white);
+        color: var(--fun_color_dark);
+    }
+
+    &>div:nth-child(4n-6) {
+        background-color: var(--fun_color_green);
+        color: var(--white);
+    }
 }
