@@ -79,4 +79,12 @@ tbody {
     .topic-list .topic-list-data.posters{
         display: none;
     }
+    .topic-list-item, tr{
+        margin: 0;
+        padding: 0;
+    }
+    .topic-list .num.activity a{
+        margin: 0;
+        padding: 12px 0;
+    }
 }
