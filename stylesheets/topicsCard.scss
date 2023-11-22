@@ -44,6 +44,12 @@ tbody {
     display: flex;
 }
 
+@media only screen and (max-width: 300px){
+    .topic-list .topic-list-data{
+        width: 50px;
+    }
+}
+
 .topic-list-item, tr {
     border-bottom: none;
     display: flex;
