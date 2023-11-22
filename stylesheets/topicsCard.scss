@@ -1,6 +1,11 @@
 @import "constants.scss";
 
-.topic-list-item, tr{
-    background-color: aliceblue;
-    color: black;
+
+.navigation-categories .category-list{
+    //each card?
+    background-color: var(--white);
 }
+.navigation-categories .category-list:first-child{
+    background-color: var(--body_background_pale_green);
+}
+
