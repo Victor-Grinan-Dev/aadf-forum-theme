@@ -12,3 +12,8 @@
     margin-top: 5px;
     border-bottom: none;
 }
+
+.categories-and-latest div.column div, 
+.categories-and-top div.column div{
+    display:flex;
+}
