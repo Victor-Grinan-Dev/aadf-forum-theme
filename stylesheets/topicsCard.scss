@@ -88,7 +88,6 @@ tbody {
         padding: 12px 0;
     }
     .topic-list-item, tr{
-        justify-content: stretch;
-        min-width:25%;
+        align-self: flex-end;
     }
 }
