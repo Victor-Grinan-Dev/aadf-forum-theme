@@ -22,21 +22,34 @@
     //cards interval styling
     & .latest-topic-list-item:nth-child(even) {
         background-color: var(--fun_color_gray);
-        color: var(--white);
+        & a{
+            color: var(--white);
+            
+        }
     }
 
     & .latest-topic-list-item:nth-child(odd) {
         background-color: var(--fun_color_petrol);
-        color: var(--white);
+        & a{
+            color: var(--white);
+            
+        }
     }
 
     & .latest-topic-list-item:nth-child(4n-7) {
         background-color: var(--white);
-        color: var(--fun_color_dark);
+        & a{
+            color: var(--fun_color_dark);
+            
+        }
     }
 
     & .latest-topic-list-item:nth-child(4n-6) {
         background-color: var(--fun_color_green);
-        color: var(--white);
+        & a{
+            color: var(--white);
+            
+        }
     }
 }
+
