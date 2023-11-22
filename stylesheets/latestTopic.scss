@@ -1,7 +1,10 @@
 @import "constants.scss";
 
-.categories-and-latest div.column, .categories-and-top div.column{
-    display: flex;
+.categories-and-latest div.column, .categories-and-top div.column {
+    flex: 1 0 0px;
+    flex-direction: row;
+    min-width: 300px;
+    background-color: coral;
 }
 
 .latest-topic-list-item{
