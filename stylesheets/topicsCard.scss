@@ -14,7 +14,7 @@ tbody {
     // topic card, start & end
     background-color: var(--white);
     flex: 1;
-    // box-shadow: 0 0 10px var(--menu_bar_outline_green);
+  
 }
 
 /*** CARD (itself) ***/
@@ -22,7 +22,7 @@ tbody {
     // topic card, start
     border-radius: 3px 0 0 3px;
                     //down                              //top                                  //right                           //left
-    box-shadow: 0 0 10px var(--menu_bar_outline_green), 0 0 0px var(--menu_bar_outline_green), 0 0 0 var(--white), 0 0 10px var(--menu_bar_outline_green); //Not working
+    // box-shadow: 0 0 10px var(--menu_bar_outline_green), 0 0 0px var(--menu_bar_outline_green), 0 0 0 var(--white), 0 0 10px var(--menu_bar_outline_green); //Not working
     
 }
  .category-list td
@@ -30,7 +30,7 @@ tbody {
     // topic card, end
    border-radius: 0 3px 3px 0;
                     //down                              //top                                  //right                                  //left
-   box-shadow: 0 0 10px var(--menu_bar_outline_green), 0 0 10px var(--menu_bar_outline_green), 0 0 10px var(--menu_bar_outline_green), 0 0 0px white; //Not working
+    // box-shadow: 0 0 10px var(--menu_bar_outline_green), 0 0 10px var(--menu_bar_outline_green), 0 0 10px var(--menu_bar_outline_green), 0 0 0px white; //Not working
 }
 
 
