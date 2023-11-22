@@ -1,7 +1,9 @@
 @import "constants.scss";
 
 /**** GENERAL CSS ****/
-
+.header-sidebar-toggle button{
+    background-color: var(--discourse_black);
+}
 .sidebar-container{
     background-color: var(--fun_color_dark);
 }
