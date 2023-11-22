@@ -1,12 +1,16 @@
 @import "constants.scss";
 
-.categories-and-latest div.column, .categories-and-top div.column {
+.categories-and-latest div.column, 
+.categories-and-top div.column {
     flex: 1 0 0px;
     flex-direction: row;
     min-width: 300px;
-    background-color: coral;
+    background-color: var(--white);
+    gap: 5px;
 }
 
+.categories-and-latest div.column, 
+.categories-and-top div.column
 .latest-topic-list-item{
     background-color: var(--white);
     border-radius: 3px;
