@@ -12,6 +12,9 @@
     //card
     margin-top: 5px;
     border-bottom: none;
+    &>div{
+        background-color: inherit;
+    }
 }
 
 .categories-and-latest div.column div,
