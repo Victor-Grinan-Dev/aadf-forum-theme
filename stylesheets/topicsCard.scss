@@ -9,3 +9,8 @@
     background-color: var(--body_background_pale_green);
 }
 
+.navigation-categories .category-list:not(:first-child) 
+{
+    //all other cards but first
+    background:yellow;
+}
