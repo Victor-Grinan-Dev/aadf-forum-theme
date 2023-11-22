@@ -87,7 +87,7 @@ tbody {
         margin: 0;
         padding: 12px 0;
     }
-    .topic-list-item, tr{
+    .topic-list .topic-list-data:last-of-type{
         align-self: flex-end;
         flex: 1;
     }
