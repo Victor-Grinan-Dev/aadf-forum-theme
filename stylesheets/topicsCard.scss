@@ -10,9 +10,15 @@ tbody {
 
 .category-list td,
 .category-list tbody .category{
-    // topic card, start
+    // topic card, start & end
     background-color: var(--white);
     flex: 1;
+}
+
+/*** CARD (itself) ***/
+.category-list tbody .category{
+    // topic card, start
+    border-radius: 3px 0 0 3px;
 }
  .category-list td
 {
