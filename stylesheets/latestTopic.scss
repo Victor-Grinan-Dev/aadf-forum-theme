@@ -1,13 +1,11 @@
 @import "constants.scss";
 
-.categories-and-latest div.column, .categories-and-top div.column {
+.categories-and-latest div.column, 
+.categories-and-top div.column {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-
 }
 
+.latest-topic-list .table-heading, .top-topic-list .table-heading
 .latest-topic-list-item{
     background-color: var(--white);
     border-radius: 3px;
