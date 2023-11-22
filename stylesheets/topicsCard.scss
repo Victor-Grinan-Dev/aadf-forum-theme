@@ -22,7 +22,7 @@
     background-color: var(--body_background_pale_green);
 }
 
-.category-list .topics,
-.category-list td :not(:first-child){
+.category-list .topics //, .category-list td
+{
     background-color: var(--white);
 }
