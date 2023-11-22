@@ -69,8 +69,14 @@ tbody {
 @media only screen and (max-width: 300px){
     .topic-list .topic-list-data:first-of-type{
         width: 50%;
+        padding: 12px 0;
     }
     .topic-list .topic-list-data{
         width: 30px;
+        padding: 12px 0;
+    }
+
+    .topic-list .topic-list-data.posters{
+        display: none;
     }
 }
