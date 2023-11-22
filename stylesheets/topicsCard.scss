@@ -1,5 +1,9 @@
 @import "constants.scss";
 
+.wrap .contents{
+    padding-top: 10px;
+}
+
 tbody {
     border-top: 3px solid var(--primary-low);
     padding-top: 5px;
