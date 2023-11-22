@@ -14,12 +14,14 @@ tbody {
     // topic card, start & end
     background-color: var(--white);
     flex: 1;
+    box-shadow: 0 0 5px var(--menu_bar_outline_green);
 }
 
 /*** CARD (itself) ***/
 .category-list tbody .category{
     // topic card, start
     border-radius: 3px 0 0 3px;
+    
 }
  .category-list td
 {
