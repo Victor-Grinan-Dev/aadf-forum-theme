@@ -2,6 +2,9 @@
 
 .categories-and-latest div.column, .categories-and-top div.column {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 
 }
 
