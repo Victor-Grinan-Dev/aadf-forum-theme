@@ -5,9 +5,7 @@
 //     //each card?
 //     background-color: var(--white);
 // }
-.navigation-categories .category-list:first-child{
-    background-color: var(--body_background_pale_green);
-}
+
 
 // .navigation-categories .category-list:not(:first-child) 
 // {
@@ -17,4 +15,8 @@
 
 .topic-list-item, tr{
     background-color: var(--white);
+}
+
+.navigation-categories .category-list:first-child{
+    background-color: var(--body_background_pale_green);
 }
