@@ -43,3 +43,22 @@ tbody {
     border-bottom: none;
     display: flex;
 }
+
+.topic-list-item, tr {
+    border-bottom: none;
+    display: flex;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/**** ODER CARDS POSTS *****/
+.topic-list-item td:first-child, .topic-post{
+    min-width: 60%;
+}
+
+.topic-list .topic-list-data:first-of-type {
+    padding-left: 10px;
+    min-width: 40%;
+}
