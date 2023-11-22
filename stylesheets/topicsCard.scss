@@ -1,7 +1,10 @@
 @import "constants.scss";
 
-.tbody{
-    gap: 5px;
+tbody {
+    border-top: 3px solid var(--primary-low);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
@@ -23,3 +26,7 @@
 }
 
 
+.topic-list-item, tr{
+    border-bottom: none;
+    display: flex;
+}
