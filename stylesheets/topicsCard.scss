@@ -91,5 +91,7 @@ tbody {
         align-self: flex-end;
         flex: 1;
         text-align: right;
+        display: flex;
+        align-items: flex-end;
     }
 }
