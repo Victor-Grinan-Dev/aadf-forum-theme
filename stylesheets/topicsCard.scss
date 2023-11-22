@@ -23,6 +23,6 @@
 }
 
 .category-list .topics,
-.category-list td{
+.category-list td :not(:first-child){
     background-color: var(--white);
 }
