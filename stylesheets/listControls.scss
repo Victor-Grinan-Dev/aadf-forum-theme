@@ -3,21 +3,9 @@
 .list-controls {
     @include reset;
     background-color: var(--white);
-
-    // @include flex-between;
-
     padding: 5px;
     gap: 5px;
     border-radius: $app-borders;
-
-    // .container{
-    //     @include flex-between;
-    //     &::before,
-    //     &::after{
-    //         @include flex-between;
-    //         width: 100%;
-    //     }
-    // }
 }
 
 .navigation-container {
@@ -50,6 +38,11 @@
 .nav-pills>li a, .nav-pills>li button {
     color: var(--white);
 }
+
+.nav-pills>li{
+    margin: 0;
+}
+
 .nav-pills>li a:hover, .nav-pills>li button:hover {
     background-color: var(--fun_color_petrol);
     color: var(--light_gray_3);
