@@ -1,16 +1,20 @@
 @import "constants.scss";
 
 
-.navigation-categories .category-list{
-    //each card?
-    background-color: var(--white);
-}
+// .navigation-categories .category-list{
+//     //each card?
+//     background-color: var(--white);
+// }
 .navigation-categories .category-list:first-child{
     background-color: var(--body_background_pale_green);
 }
 
-.navigation-categories .category-list:not(:first-child) 
-{
-    //all other cards but first
-    background:yellow;
+// .navigation-categories .category-list:not(:first-child) 
+// {
+//     //all other cards but first
+//     background:yellow;
+// }
+
+.topic-list-item, tr{
+    background-color: var(--white);
 }
