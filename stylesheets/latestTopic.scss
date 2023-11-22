@@ -2,9 +2,8 @@
 
 .categories-and-latest div.column, 
 .categories-and-top div.column {
-    flex: 1 0 0px;
-    flex-direction: row;
-    min-width: 300px;
+    display: flex;
+    flex-direction: column;
     background-color: var(--white);
     gap: 5px;
 }
