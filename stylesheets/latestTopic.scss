@@ -20,7 +20,7 @@
 .categories-and-latest div.column>div,
 .categories-and-top div.column>div {
 
-    &:nth-child(even) {
+    & .latest-topic-list-item:nth-child(even) {
         background-color: var(--fun_color_gray);
         color: var(--white);
         // & div{
@@ -30,7 +30,7 @@
 
     }
 
-    &:nth-child(odd) {
+    & .latest-topic-list-item:nth-child(odd) {
         background-color: var(--fun_color_blue);
         color: var(--white);
         // & div{
@@ -40,7 +40,7 @@
 
     }
 
-    &:nth-child(4n-7) {
+    & .latest-topic-list-item:nth-child(4n-7) {
         background-color: var(--white);
         color: var(--fun_color_dark);
         // & div{
@@ -50,7 +50,7 @@
 
     }
 
-    &:nth-child(4n-6) {
+    & .latest-topic-list-item:nth-child(4n-6) {
         background-color: var(--fun_color_green);
         color: var(--white);
         // & div{
